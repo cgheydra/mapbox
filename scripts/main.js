@@ -13,8 +13,8 @@ var map = new mapboxgl.Map({
 map.on('load', function () {
 
   // laad een extern bestand
-  map.loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cat_silhouette.svg/400px-Cat_silhouette.svg.png', function (error, image) {
-  //map.loadImage('images/school.png', function (error, image) {
+  //map.loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cat_silhouette.svg/400px-Cat_silhouette.svg.png', function (error, image) {
+  map.loadImage('images/school.png', function (error, image) {
    
       // voeg image toe
       map.addImage('cat', image);
